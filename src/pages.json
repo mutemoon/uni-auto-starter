@@ -1,0 +1,9 @@
+{
+	"pages": [
+		{
+			"path": "pages/index",
+			"type": "home"
+		}
+	],
+	"subPackages": []
+}
