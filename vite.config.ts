@@ -25,6 +25,11 @@ export default defineConfig({
     vueDevTools(),
     uni(),
   ],
+  css: {
+    postcss: {
+      plugins: [require("tailwindcss"), require("autoprefixer")],
+    },
+  },
   resolve: {
     alias: {
       "@": `${resolve(__dirname, "src")}`,
