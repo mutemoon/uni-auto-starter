@@ -2,7 +2,10 @@
 	"pages": [
 		{
 			"path": "pages/index",
-			"type": "home"
+			"type": "home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
 		}
 	],
 	"subPackages": []
